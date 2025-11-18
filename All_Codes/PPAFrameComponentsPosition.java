@@ -1,0 +1,23 @@
+
+import javax.swing.*;
+
+class PPAFrameComponentsPosition {
+
+    public static void main(String A[]) {
+        JFrame fobj = new JFrame("PPA");
+
+        JButton bobj = new JButton("ok");
+
+        bobj.setBounds(100, 100, 150, 50);
+
+        fobj.add(bobj);
+
+        fobj.setSize(500, 300);
+
+        fobj.setLayout(null);
+        fobj.setVisible(true);
+
+        fobj.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    }
+}

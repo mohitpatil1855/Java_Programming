@@ -1,1 +1,1 @@
-
+        fobj.setLayout(null);
